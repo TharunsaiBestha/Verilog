@@ -1,0 +1,204 @@
+$date
+	Sun Feb  6 03:06:59 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Divider_Cir_test $end
+$var wire 8 ! Quotient [7:0] $end
+$var wire 8 " Reminder [7:0] $end
+$var reg 8 # Dividend [7:0] $end
+$var reg 8 $ Divisor [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & ready $end
+$scope module DUT $end
+$var wire 8 ' Dividend [7:0] $end
+$var wire 8 ( Divisor [7:0] $end
+$var wire 8 ) Quotient [7:0] $end
+$var wire 8 * Reminder [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & ready $end
+$var wire 1 + ld $end
+$var wire 1 , in_bit $end
+$var wire 1 - idle $end
+$var wire 8 . count [7:0] $end
+$var wire 1 / clear $end
+$var wire 16 0 Reg_out [15:0] $end
+$var wire 8 1 AB_out [7:0] $end
+$scope module A1 $end
+$var wire 8 2 A [7:0] $end
+$var wire 8 3 B [7:0] $end
+$var reg 8 4 C [7:0] $end
+$var reg 1 , s $end
+$upscope $end
+$scope module C1 $end
+$var wire 1 % clk $end
+$var wire 1 & ready $end
+$var wire 8 5 count [7:0] $end
+$var reg 1 / clear $end
+$var reg 1 - idle $end
+$var reg 1 + ld $end
+$var reg 1 6 state $end
+$upscope $end
+$scope module Co1 $end
+$var wire 8 7 Q [7:0] $end
+$var wire 1 / clear $end
+$var wire 1 % clk $end
+$var reg 8 8 count [7:0] $end
+$upscope $end
+$scope module R1 $end
+$var wire 8 9 A [7:0] $end
+$var wire 8 : A_temp [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 - idle $end
+$var wire 1 , in_bit $end
+$var wire 1 + ld $end
+$var wire 1 , ld_u $end
+$var wire 8 ; B [7:0] $end
+$var reg 16 < Q [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+06
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bxzzzzzzzz 0
+1/
+bx .
+1-
+x,
+1+
+bz *
+bz )
+bx (
+bx '
+0&
+0%
+bx $
+bx #
+bz "
+bz !
+$end
+#2
+b10001 $
+b10001 (
+b10001 3
+b10000101 #
+b10000101 '
+b10000101 9
+1&
+#5
+b0xxxxxxxx <
+0+
+0/
+0-
+16
+b0 .
+b0 5
+b0 7
+b0 8
+1%
+#10
+0%
+#12
+1+
+1/
+1-
+06
+0&
+#15
+1%
+#20
+0%
+#25
+1%
+#30
+0%
+#35
+1%
+#40
+0%
+#45
+1%
+#50
+0%
+#55
+1%
+#60
+0%
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+0%
+#85
+1%
+#90
+0%
+#95
+1%
+#100
+0%
+#105
+1%
+#110
+0%
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+1%
+#140
+0%
+#145
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
+#205
+1%
+#210
+0%
+#212

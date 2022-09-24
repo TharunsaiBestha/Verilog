@@ -1,0 +1,36 @@
+module mux2_1(in,sel,out);
+input[1:0] in;
+input sel;
+output out;
+    assign out=sel?in[1]:in[0];
+endmodule
+module Barrel_shifter(in,sel,out);
+input[7:0] in;
+input[2:0] sel;
+output[7:0] out;
+wire[7:0] w1,w2;
+mux2_1 M17({in[7],in[7]},sel[0],w1[7]);
+mux2_1 M16({in[7],in[6]},sel[0],w1[6]);
+mux2_1 M15({in[6],in[5]},sel[0],w1[5]);
+mux2_1 M14({in[5],in[4]},sel[0],w1[4]);
+mux2_1 M13({in[4],in[3]},sel[0],w1[3]);
+mux2_1 M12({in[3],in[2]},sel[0],w1[2]);
+mux2_1 M11({in[2],in[1]},sel[0],w1[1]);
+mux2_1 M10({in[1],in[0]},sel[0],w1[0]);
+mux2_1 M27({w1[7],w1[7]},sel[1],w2[7]);
+mux2_1 M26({w1[7],w1[6]},sel[1],w2[6]);
+mux2_1 M25({w1[7],w1[5]},sel[1],w2[5]);
+mux2_1 M24({w1[6],w1[4]},sel[1],w2[4]);
+mux2_1 M23({w1[5],w1[3]},sel[1],w2[3]);
+mux2_1 M22({w1[4],w1[2]},sel[1],w2[2]);
+mux2_1 M21({w1[3],w1[1]},sel[1],w2[1]);
+mux2_1 M20({w1[2],w1[0]},sel[1],w2[0]);
+mux2_1 M37({w2[7],w2[7]},sel[2],out[7]);
+mux2_1 M36({w2[7],w2[6]},sel[2],out[6]);
+mux2_1 M35({w2[7],w2[5]},sel[2],out[5]);
+mux2_1 M34({w2[7],w2[4]},sel[2],out[4]);
+mux2_1 M33({w2[7],w2[3]},sel[2],out[3]);
+mux2_1 M32({w2[6],w2[2]},sel[2],out[2]);
+mux2_1 M31({w2[5],w2[1]},sel[2],out[1]);
+mux2_1 M30({w2[4],w2[0]},sel[2],out[0]);
+endmodule

@@ -1,0 +1,77 @@
+$date
+	Tue Feb  8 18:22:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module adjust_mantissa_test $end
+$var wire 24 ! B_out [23:0] $end
+$var wire 24 " A_out [23:0] $end
+$var reg 24 # A [23:0] $end
+$var reg 24 $ B [23:0] $end
+$scope module DUT $end
+$var wire 24 % A [23:0] $end
+$var wire 24 & B [23:0] $end
+$var wire 24 ' temp_A [23:0] $end
+$var wire 24 ( temp_B [23:0] $end
+$var wire 5 ) temp_res_B [4:0] $end
+$var wire 5 * temp_res_A [4:0] $end
+$var wire 24 + B_out [23:0] $end
+$var wire 24 , A_out [23:0] $end
+$scope module E1 $end
+$var wire 24 - A [23:0] $end
+$var reg 5 . res [4:0] $end
+$var integer 32 / n [31:0] $end
+$upscope $end
+$scope module E2 $end
+$var wire 24 0 A [23:0] $end
+$var reg 5 1 res [4:0] $end
+$var integer 32 2 n [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b101 !
+b101 +
+b10010 )
+b10010 1
+b11000 2
+b101101101011 "
+b101101101011 ,
+b1100 *
+b1100 .
+b11000 /
+b1000000000000000000 (
+b1000000000000000000 0
+b1000000000000 '
+b1000000000000 -
+b101000000000000000000 $
+b101000000000000000000 &
+b101101101011000000000000 #
+b101101101011000000000000 %
+#15

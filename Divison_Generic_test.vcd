@@ -1,0 +1,52 @@
+$date
+	Wed Jan 19 21:52:25 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Divison_Generic_test $end
+$var wire 24 ! Reminder [23:0] $end
+$var wire 24 " Quotient [23:0] $end
+$var reg 24 # Dividend [23:0] $end
+$var reg 24 $ Divisor [23:0] $end
+$scope module DUT $end
+$var wire 24 % Dividend [23:0] $end
+$var wire 24 & Divisor [23:0] $end
+$var reg 24 ' Quotient [23:0] $end
+$var reg 24 ( Reminder [23:0] $end
+$var reg 24 ) temp [23:0] $end
+$var reg 24 * tempD [23:0] $end
+$var integer 32 + count [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2
+b1100001000000000000 !
+b1100001000000000000 (
+b10000 "
+b10000 '
+b11000 +
+b1100001000000000000 )
+b10000 *
+b1111000000000000000 $
+b1111000000000000000 &
+b11111100001000000000000 #
+b11111100001000000000000 %
+#4

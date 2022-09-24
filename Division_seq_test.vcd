@@ -1,0 +1,162 @@
+$date
+	Sun Feb  6 21:56:59 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Division_seq_test $end
+$var wire 8 ! Reminder [7:0] $end
+$var wire 8 " Quotient [7:0] $end
+$var reg 8 # Dividend [7:0] $end
+$var reg 8 $ Divisor [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & ready $end
+$scope module DUT $end
+$var wire 8 ' Dividend [7:0] $end
+$var wire 8 ( Divisor [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & ready $end
+$var reg 16 ) Q [15:0] $end
+$var reg 8 * Quotient [7:0] $end
+$var reg 8 + Reminder [7:0] $end
+$var reg 4 , count [3:0] $end
+$var reg 1 - res $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x-
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+0&
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#2
+0-
+b0 ,
+b10000101 )
+b10001 $
+b10001 (
+b10000101 #
+b10000101 '
+1&
+#5
+b1 ,
+b100001010 )
+1%
+#10
+0%
+#12
+0&
+#15
+b10 ,
+b1000010100 )
+1%
+#20
+0%
+#25
+b11 ,
+b10000101000 )
+1%
+#30
+0%
+#35
+b100 ,
+b100001010000 )
+1%
+#40
+0%
+#45
+b101 ,
+b1000010100000 )
+1%
+#50
+0%
+#55
+b110 ,
+b1000001000001 )
+1%
+#60
+0%
+#65
+b111 ,
+b111110000011 )
+1%
+#70
+0%
+#75
+b1000 ,
+b111000000111 )
+1%
+#80
+0%
+#85
+b1110 !
+b1110 +
+b111 "
+b111 *
+1-
+1%
+#90
+0%
+#95
+1%
+#100
+0%
+#105
+1%
+#110
+0%
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+1%
+#140
+0%
+#145
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+0%
+#195
+1%
+#200
+0%
+#205
+1%
+#210
+0%
+#212

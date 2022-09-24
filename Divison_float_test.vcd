@@ -1,0 +1,58 @@
+$date
+	Thu Jan 20 15:58:02 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Divison_float_test $end
+$var wire 24 ! Quotient [23:0] $end
+$var reg 23 " Dividend [22:0] $end
+$var reg 23 # Divisor [22:0] $end
+$scope module DUT $end
+$var wire 23 $ Dividend [22:0] $end
+$var wire 23 % Divisor [22:0] $end
+$var reg 24 & Quotient [23:0] $end
+$var reg 5 ' shiftDividend [4:0] $end
+$var reg 5 ( shiftDivisor [4:0] $end
+$var reg 5 ) shiftQuotient [4:0] $end
+$var reg 24 * temp [23:0] $end
+$var reg 24 + tempDividend [23:0] $end
+$var reg 24 , tempDivisor [23:0] $end
+$var integer 32 - count [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2
+b1111000000000000000000 !
+b1111000000000000000000 &
+b11000 -
+b1001111 +
+b100101 ,
+b0 *
+b10010 )
+b1100 '
+b10010 (
+b101000000000000000000 #
+b101000000000000000000 %
+b1101101011000000000000 "
+b1101101011000000000000 $
+#4

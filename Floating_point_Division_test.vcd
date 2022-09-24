@@ -1,0 +1,72 @@
+$date
+	Wed Jan 19 16:53:01 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Floating_point_Division_test $end
+$var wire 32 ! Quotient [31:0] $end
+$var reg 32 " Dividend [31:0] $end
+$var reg 32 # Divisor [31:0] $end
+$scope module DUT $end
+$var wire 32 $ Dividend [31:0] $end
+$var wire 32 % Divisor [31:0] $end
+$var reg 32 & Quotient [31:0] $end
+$var reg 8 ' exponent [7:0] $end
+$var reg 5 ( shift [4:0] $end
+$var reg 24 ) temp [23:0] $end
+$var reg 24 * tempDividend [23:0] $end
+$var reg 24 + tempDivisor [23:0] $end
+$var reg 24 , tempQ [23:0] $end
+$var integer 32 - count [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b1 ,
+b11000 -
+b100000000000000000000000 +
+b1 *
+b11111111 '
+b0 (
+b0 )
+b1111111100000000000000000000000 !
+b1111111100000000000000000000000 &
+b1000000000000000000000000000000 #
+b1000000000000000000000000000000 %
+b111111100000000000000000000000 "
+b111111100000000000000000000000 $
+#10
+b1111111000000000000000000000000 !
+b1111111000000000000000000000000 &
+b0 ,
+b101100110011001100110011 )
+b11000 -
+b110000000000000000000000 +
+b0 *
+b11111110 '
+b11111 (
+b1000000010000000000000000000000 #
+b1000000010000000000000000000000 %
+b111111001100110011001100110011 "
+b111111001100110011001100110011 $
+#15
